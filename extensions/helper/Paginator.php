@@ -366,8 +366,10 @@ class Paginator extends \lithium\template\Helper {
 
 	protected function _query() {
 		$params = $this->_context->_config['request']->query;
-		if (count($params) > 1) {
+		if (isset($params['url'])) {
 			unset($params['url']);
+		}
+		if (count($params) > 0) {
 			return array('?' => $params);
 		}
 		return array();
