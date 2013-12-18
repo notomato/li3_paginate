@@ -1,0 +1,8 @@
+{
+    "name": "notomato/li3_paginate",
+    "description": "Lithium pagination helper",
+    "authors": [
+    ],
+    "require": {
+    }
+}
