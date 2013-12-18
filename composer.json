@@ -1,8 +1,10 @@
 {
     "name": "notomato/li3_paginate",
     "description": "Lithium pagination helper",
+    "type": "lithium-library",
     "authors": [
     ],
     "require": {
+        "composer/installers": "*"
     }
 }
